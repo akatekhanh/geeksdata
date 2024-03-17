@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: source
+    database: dbt
+    schema: source
+    tables:
+      - name: customer
+      - name: order_table
+      - name: payment
+      - name: product
